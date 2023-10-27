@@ -51,15 +51,12 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container-full{
-    background-color: yellow;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container-fluid{
-    background-color: yellow;
     padding: 20px;
     width: 60%;
     display: flex;
@@ -97,8 +94,12 @@ main{
 
 .col-50{
     width: 50%;
+    height: calc(100vw/6);
     padding: 20px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-40{
@@ -118,10 +119,7 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
-.content-chessboard{
-    height: calc(100vw/3/2) ;  
-    background-color: red;
-}
+
 
 
 .col-30{
@@ -152,8 +150,13 @@ hr{
 .font-size-25{
     font-size: 25px;
 }
+
+.padding-top-100{
+    padding-top: 100px;
+}
+
 .ruota{
-    transform: rotate(-30deg);
+        transform: rotate(-30deg);
 }
 
 .border-grey{
@@ -180,6 +183,52 @@ hr{
 .bg-white{
     background-color: white;
 }
+
+.bg-designit{
+    background-color: #A2D39B;
+    border: solid 20px #D1E9CD;
+}
+
+.bg-arizona{
+    background-color: #61082B;
+}
+
+.bg-florida{
+    background-color: #0093CE;
+}
+
+.bg-topps{
+    background-color: #FF1C1C;
+}
+
+.bg-bicycle{
+    background-color: #D5001F;
+}
+
+.bg-lonely{
+    background-color: #0D2481;
+}
+
+.bg-hearst{
+    background-color: #B4D0E7;
+}
+
+.bg-channel{
+    background-color: #FFD830;
+}
+
+.bg-F5F5F5{
+    background-color: #F5F5F5;
+}
+
+.filter-invert{
+    filter: invert(100%);
+}
+
+
+
+
+
 h2{
     font-size: 50px;
 }
